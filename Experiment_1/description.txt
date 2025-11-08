@@ -1,0 +1,37 @@
+1. Student Registration Form with HTML5 Validation
+
+Created a simple student registration form using HTML and CSS.
+
+Included Name, Email, and Age input fields.
+
+Applied HTML5 validation to ensure correct input (required, email format, number range).
+
+Made the form clean, readable, and user-friendly.
+
+Ensured responsive design for smooth display across devices.
+
+2. Responsive Banking UI with Balance Display
+
+Designed a banking interface with HTML and CSS only.
+
+Displayed a balance card at the center of the screen.
+
+Added Deposit and Withdraw buttons (UI only, no interaction).
+
+Used modern styling for a clean and professional look.
+
+Ensured full responsiveness for mobile, tablet, and desktop screens.
+
+3. Admin Dashboard with CSS Grid & Theme Switch
+
+Developed a multi-section Admin Dashboard using CSS Grid.
+
+Included Header, Sidebar, Main Content area, and Footer.
+
+Added a theme switch button for Light and Dark modes.
+
+Theme switched without reloading the page.
+
+Created a modern, neat, and professional UI layout.
+
+Ensured responsive design that adapts to different screen sizes.
