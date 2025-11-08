@@ -1,0 +1,37 @@
+1️⃣ Live Character Counter for Textarea
+
+Designed a webpage with a textarea input field.
+
+Implemented real-time character counting using JavaScript.
+
+Counter updates immediately as user types or deletes text.
+
+Displays total number of characters entered.
+
+Enhances user interaction and typing experience.
+
+2️⃣ Dynamic Product Filter with Dropdown (JavaScript DOM Manipulation)
+
+Created a product list displayed on a webpage.
+
+Added a dropdown filter menu with category options (e.g., All, Category 1, Category 2).
+
+Applied JavaScript to detect dropdown changes and filter items instantly.
+
+Display updates dynamically without page reload.
+
+Practiced DOM manipulation, event handling, and conditional filtering.
+
+3️⃣ Interactive SVG Pencil Drawing Tool
+
+Built an interactive drawing area using an SVG element.
+
+Implemented freehand pencil-style drawing using mouse events.
+
+Used mousedown, mousemove, and mouseup to track drawing actions.
+
+Dynamically created SVG path elements to draw smooth lines.
+
+Allowed users to draw multiple strokes without reloading the page.
+
+Strengthened skills in advanced DOM manipulation and event control.
