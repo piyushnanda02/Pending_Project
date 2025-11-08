@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Product Filter</title>
+
+<style>
+    body {
+        font-family: Arial;
+        background: #f2f2f2;
+        padding: 20px;
+    }
+
+    .container {
+        width: 300px;
+        margin: auto;
+        background: white;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    }
+
+    select {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border-radius: 6px;
+        border: 1px solid gray;
+    }
+
+    .product {
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h3>Filter Products</h3>
+
+    <!-- Dropdown -->
+    <select id="filter">
+        <option value="all">All Products</option>
+        <option value="shoes">Shoes</option>
+        <option value="shirts">Shirts</option>
+        <option value="gadgets">Gadgets</option>
+    </select>
+
+    <!-- Product List -->
+    <div id="productList">
+        <div class="product" data-category="shoes">Nike Sports Shoes</div>
+        <div class="product" data-category="shirts">Casual Cotton Shirt</div>
+        <div class="product" data-category="gadgets">Smartwatch</div>
+        <div class="product" data-category="shoes">Adidas Sneakers</div>
+        <div class="product" data-category="shirts">Formal Shirt</div>
+        <div class="product" data-category="gadgets">Bluetooth Earbuds</div>
+    </div>
+</div>
+
+<script>
+let filter = document.getElementById("filter");
+let products = document.querySelectorAll(".product");
+
+filter.addEventListener("change", function(){
+    let category = filter.value;
+
+    products.forEach(product => {
+        if(category === "all" || product.dataset.category === category) {
+            product.style.display = "block";
+        } else {
+            product.style.display = "none";
+        }
+    });
+});
+</script>
+
+</body>
+</html>
